@@ -1,0 +1,36 @@
+$color-primario: rgb(32, 156, 238);
+$color-exito: rgb(54, 176, 97);
+$color-alerta: rgb(255, 193, 5);
+$color-peligro: rgb(238, 32, 73);
+
+.boton {
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+
+    &:hover {
+        filter: brightness(1.1);
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    &--primario {
+        background: $color-primario;
+    }
+
+    &--exito {
+        background: $color-exito;
+    }
+
+    &--alerta {
+        background: $color-alerta;
+    }
+
+    &--peligro {
+        background: $color-peligro;
+    }
+
+}
+

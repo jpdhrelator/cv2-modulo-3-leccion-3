@@ -1,0 +1,10 @@
+.titulo-primario {
+  color: rgb(32, 156, 238);
+}
+
+.tema-oscuro {
+  background-color: rgb(0, 0, 0);
+}
+.tema-oscuro .titulo-primario {
+  color: rgb(242, 242, 242);
+}/*# sourceMappingURL=style.css.map */

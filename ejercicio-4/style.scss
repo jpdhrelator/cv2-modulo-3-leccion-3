@@ -1,0 +1,55 @@
+$color-primario: rgb(142, 32, 238);
+$radio: 0.75rem;
+$espaciado: 1rem;
+
+.perfil {
+
+    max-width: 320px;
+    background-color: rgb(255, 255, 255);
+    border-radius: $radio;
+
+    &__cabecera {
+        background-color: $color-primario;
+        height: 80px;
+    }
+
+    &__avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 4px solid rgb(255, 255, 255);
+        margin: -40px auto 0;
+        display: block;
+        background-color: rgb(115, 115, 115);
+    }
+
+    &__cuerpo {
+        padding: 1rem 1.5rem;
+        text-align: center;
+    }
+
+    &__nombre {
+        color: rgb(51, 51, 51);
+        margin: 0.5rem 0 0.25rem;
+    }
+
+    &__rol {
+        color: rgb(115, 115, 115);
+        font-size: 0.875rem;
+        margin: 0 0 1rem;
+    }
+
+    &__boton {
+        background-color: $color-primario;
+        color: rgb(255, 255, 255);
+        border: 0;
+        padding: 0.625rem 1.25rem;
+        border-radius: 0.75rem;
+        cursor: pointer;
+
+        &:hover {
+            filter: brightness(1.1);
+        }
+    }
+
+}

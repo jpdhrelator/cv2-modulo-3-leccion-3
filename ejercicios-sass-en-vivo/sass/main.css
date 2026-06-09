@@ -1,0 +1,41 @@
+.letra-primaria {
+  color: rgb(8, 35, 207);
+}
+
+.letra-exito {
+  color: rgb(19, 227, 92);
+}
+
+.boton {
+  background-color: rgb(8, 35, 207);
+  color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+.boton-sm {
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: rgb(8, 35, 207);
+}
+
+.btn-primary-light {
+  background-color: rgb(8, 108, 207);
+}
+
+.btn-exito {
+  background-color: rgb(19, 227, 92);
+  color: rgb(255, 255, 255);
+}
+
+.span-exito {
+  background-color: rgb(19, 227, 92);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */

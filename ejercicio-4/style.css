@@ -1,0 +1,42 @@
+.perfil {
+  max-width: 320px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.75rem;
+}
+.perfil__cabecera {
+  background-color: rgb(142, 32, 238);
+  height: 80px;
+}
+.perfil__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid rgb(255, 255, 255);
+  margin: -40px auto 0;
+  display: block;
+  background-color: rgb(115, 115, 115);
+}
+.perfil__cuerpo {
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+.perfil__nombre {
+  color: rgb(51, 51, 51);
+  margin: 0.5rem 0 0.25rem;
+}
+.perfil__rol {
+  color: rgb(115, 115, 115);
+  font-size: 0.875rem;
+  margin: 0 0 1rem;
+}
+.perfil__boton {
+  background-color: rgb(142, 32, 238);
+  color: rgb(255, 255, 255);
+  border: 0;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+.perfil__boton:hover {
+  filter: brightness(1.1);
+}/*# sourceMappingURL=style.css.map */

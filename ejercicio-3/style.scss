@@ -1,0 +1,15 @@
+$color-primario: rgb(32, 156, 238);
+$color-exito: rgb(54, 176, 97);
+$color-alerta: rgb(255, 193, 5);
+$color-peligro: rgb(238, 32, 73);
+
+.titulo-primario {
+    color: $color-primario;
+}
+
+.tema-oscuro {
+    background-color: rgb(0, 0, 0);
+    & .titulo-primario {
+        color: rgb(242, 242, 242);
+    }
+}

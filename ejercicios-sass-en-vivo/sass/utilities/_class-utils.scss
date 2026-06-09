@@ -1,0 +1,42 @@
+@import './variables';
+
+
+.letra-primaria {
+    color: $color-primario;
+}
+
+.letra-exito {
+    color: $color-exito;
+}
+
+.boton {
+    background-color: $color-primario;
+    color: rgb(255, 255, 255);
+    padding: ($espaciado * 2);
+    border-radius: $radio-borde;
+    border: 0;
+}
+.boton-sm {
+    
+    color: rgb(255, 255, 255);
+    padding: ($espaciado / 2);
+    border-radius: $radio-borde;
+    border: 0;
+}
+
+.btn-primary {
+    background-color: $color-primario;
+}
+.btn-primary-light {
+    background-color: $color-primario-light;
+}
+.btn-exito {
+    background-color: $color-exito;
+    color: rgb(255, 255, 255)
+}
+
+.span-exito {
+    background-color: $color-exito;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}

@@ -1,0 +1,23 @@
+.boton {
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+}
+.boton:hover {
+  filter: brightness(1.1);
+}
+.boton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.boton--primario {
+  background: rgb(32, 156, 238);
+}
+.boton--exito {
+  background: rgb(54, 176, 97);
+}
+.boton--alerta {
+  background: rgb(255, 193, 5);
+}
+.boton--peligro {
+  background: rgb(238, 32, 73);
+}/*# sourceMappingURL=style.css.map */
