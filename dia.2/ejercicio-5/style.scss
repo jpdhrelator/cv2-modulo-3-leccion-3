@@ -1,0 +1,55 @@
+@use 'sass:math';
+
+@function convertidor-rem($px) {
+    @return math.div($px, 16) * 1rem;
+}
+
+.titulo {
+    font-size: convertidor-rem(25);
+}
+
+$base: rgb(32, 156, 238);
+
+.boton {
+    background: $base;
+
+    &:hover {
+        background: scale-color($base, $lightness: -25%);
+    }
+}
+
+$colores: (
+    'exito': rgb(54, 176, 97),
+    'alerta': rgb(255, 193, 5),
+    'error': rgb(238, 32, 73),
+    'info':rgb(32, 39, 238),
+);
+
+@each $clave, $valor in $colores {
+    .texto-#{$clave} {
+        color: $valor;
+    }
+}
+
+@for $i from 1 through 8 {
+    .mt-#{$i} {
+        margin-top: #{$i * 0.25}rem;
+    }
+}
+
+@mixin texto-contraste($fondo-oscuro: false) {
+    @if $fondo-oscuro {
+        color: white;
+    }
+    @else {
+        color: rgb(30, 30, 30);
+    }
+}
+
+.card {
+    @include texto-contraste;
+}
+
+.card--dark {
+    @include texto-contraste($fondo-oscuro: true);
+}

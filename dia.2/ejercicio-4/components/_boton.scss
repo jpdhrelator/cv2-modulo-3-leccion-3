@@ -1,0 +1,8 @@
+@use '../utilities/variables' ;
+.boton {
+  background: variables.$primario;
+  color: white;
+  border: 0;
+  padding: 0.6rem 1.2rem;
+  border-radius: variables.$radio;
+}

@@ -1,0 +1,8 @@
+@use '../../utilities/utilities' as util;
+
+
+
+.otro-card{
+   
+    @include util.size(100,200);
+}

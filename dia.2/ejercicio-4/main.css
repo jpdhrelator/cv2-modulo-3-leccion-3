@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: rgb(40, 40, 40);
+  background: rgb(247, 247, 247);
+}
+
+.boton {
+  background: rgb(32, 156, 238);
+  color: white;
+  border: 0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(32, 156, 238);
+  height: 64px;
+}/*# sourceMappingURL=main.css.map */

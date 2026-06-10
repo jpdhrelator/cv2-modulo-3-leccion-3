@@ -1,0 +1,13 @@
+$color: rgb(32, 156, 238); // global
+
+
+.color {
+   $color: rgb(238, 32, 73); // local
+   background: $color; 
+   &__otro{
+        background: $color;
+    }
+}
+.otra-class{
+     background: $color;
+}

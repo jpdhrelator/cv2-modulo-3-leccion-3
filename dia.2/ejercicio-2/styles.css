@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin-top: 25px;
+}
+
+.hero-nv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+  height: 120;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+  height: 100;
+  margin-bottom: 25px;
+}
+
+.btn-primario {
+  background: rgb(32, 156, 238);
+  color: white;
+  border: 0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+}
+
+.btn-peligro {
+  background: rgb(238, 32, 73);
+  color: white;
+  border: 0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+}
+
+.btn-warning {
+  background: rgb(238, 162, 32);
+  color: white;
+  border: 0;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+}/*# sourceMappingURL=styles.css.map */

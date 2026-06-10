@@ -1,0 +1,19 @@
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin boton($fondo) {
+  background: $fondo;
+  color: white;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover { filter: brightness(1.08); }
+}
+
+@mixin responsive($bp) {
+  @media (min-width: $bp) { @content; }
+}

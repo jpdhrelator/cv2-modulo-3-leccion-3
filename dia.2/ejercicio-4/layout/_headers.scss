@@ -1,0 +1,9 @@
+@use '../utilities/variables';
+@use '../utilities/mixins';
+
+
+.header {
+    @include mixins.centrar;
+    background: variables.$primario;
+    height: 64px;
+}

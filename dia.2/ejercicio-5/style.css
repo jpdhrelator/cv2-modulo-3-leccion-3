@@ -1,0 +1,66 @@
+.titulo {
+  font-size: 1.5625rem;
+}
+
+.boton {
+  background: rgb(32, 156, 238);
+}
+.boton:hover {
+  background: rgb(14.34375, 118.96875, 188.15625);
+}
+
+.texto-exito {
+  color: rgb(54, 176, 97);
+}
+
+.texto-alerta {
+  color: rgb(255, 193, 5);
+}
+
+.texto-error {
+  color: rgb(238, 32, 73);
+}
+
+.texto-info {
+  color: rgb(32, 39, 238);
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.card {
+  color: rgb(30, 30, 30);
+}
+
+.card--dark {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

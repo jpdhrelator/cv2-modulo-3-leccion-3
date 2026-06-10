@@ -1,0 +1,1 @@
+{"version":3,"sources":["base/_base.scss","utilities/_utilities.scss","main.css","component/c-otro/_otro.scss","main.scss"],"names":[],"mappings":"AAEA;EACI,SAAA;EACA,kCAAA;EACA,sBCLU;ACId;;ACAA;EFDI,UEGmB;EFFnB,WEEuB;ADG3B;;AELA;EACI,sBHLU;ACad;;AENA;EHJI,UGKmB;EHJnB,WGIuB;AFU3B","file":"main.css"}

@@ -1,0 +1,14 @@
+$primario: rgb(32, 156, 238);
+$acento:   rgb(118, 65, 196);
+$texto:    rgb(40, 40, 40);
+$suave:    rgb(110, 110, 110);
+$fondo:    rgb(245, 246, 250);
+$blanco:   rgb(255, 255, 255);
+$radio:    10px;
+$bp-tablet: 700px;
+
+$estados: (
+  'nuevo':   rgb(54, 176, 97),
+  'oferta':  rgb(255, 149, 0),
+  'agotado': rgb(238, 32, 73),
+);

@@ -1,0 +1,18 @@
+@use '../utilities/variables';
+@use '../utilities/mixins';
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr; // movil: 1 columna
+
+    @include mixins.responsive(variables.$bp-tablet) {
+        grid-template-columns: repeat(3, 1fr); // tablet+: 3 columnas
+    }
+}

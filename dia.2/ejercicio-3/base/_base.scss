@@ -1,0 +1,7 @@
+@use '../utilities/utilities' as util;
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: util.$color-texto;
+}

@@ -1,0 +1,28 @@
+@use '../utilities/variables';
+@use '../utilities/functions';
+
+.card {
+    background: variables.$blanco;
+    border-radius: variables.$radio;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    &__img {
+        height: 140px;
+        background: variables.$primario;
+    }
+
+    &__cuerpo {
+        padding: 1rem;
+    }
+
+    &__titulo {
+        margin: 0 0 0.25rem;
+        font-size: functions.rem(18);
+    }
+
+    &__precio {
+        margin: 0.25rem 0 0.75rem;
+        color: variables.$suave;
+    }
+}

@@ -1,0 +1,49 @@
+@mixin centrar-flex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+@mixin size ($width, $height: $width ) {
+     width: $width;
+     height: $height;
+}
+
+@mixin boton($fondo, $texto) {
+     background: $fondo;
+     color: $texto;
+     border: 0;
+     padding: 0.6rem 1.2rem;
+     border-radius: 8px;
+}
+
+
+.hero {
+     @include centrar-flex;
+     height: 300px;
+     margin-top: 25px;
+}
+
+.hero-nv {
+     @include centrar-flex;
+     @include size(100, 120);
+}
+
+.card {
+     @include centrar-flex;
+     @include size(100);
+     margin-bottom: 25px;
+
+}
+
+.btn-primario {
+     @include boton(rgb(32, 156, 238), white);
+}
+
+.btn-peligro {
+     @include boton(rgb(238, 32, 73), white);
+}
+
+.btn-warning {
+     @include boton(rgb(238, 162, 32), white);
+}

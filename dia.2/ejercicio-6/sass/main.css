@@ -1,0 +1,125 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: rgb(40, 40, 40);
+  background: rgb(245, 246, 250);
+}
+
+.boton {
+  background: rgb(32, 156, 238);
+  color: white;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.boton:hover {
+  filter: brightness(1.08);
+}
+
+.boton--acento {
+  background: rgb(118, 65, 196);
+  color: white;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.boton--acento:hover {
+  filter: brightness(1.08);
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.card__img {
+  height: 140px;
+  background: rgb(32, 156, 238);
+}
+.card__cuerpo {
+  padding: 1rem;
+}
+.card__titulo {
+  margin: 0 0 0.25rem;
+  font-size: 1.125rem;
+}
+.card__precio {
+  margin: 0.25rem 0 0.75rem;
+  color: rgb(110, 110, 110);
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge--nuevo {
+  background: rgb(54, 176, 97);
+}
+
+.badge--oferta {
+  background: rgb(255, 149, 0);
+}
+
+.badge--agotado {
+  background: rgb(238, 32, 73);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(255, 255, 255);
+  padding: 1rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+.header__logo {
+  font-weight: 700;
+  color: rgb(32, 156, 238);
+  font-size: 1.25rem;
+}
+.header__nav {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header__link {
+  text-decoration: none;
+  color: rgb(40, 40, 40);
+}
+.header__link:hover {
+  color: rgb(32, 156, 238);
+}
+
+.contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}/*# sourceMappingURL=main.css.map */

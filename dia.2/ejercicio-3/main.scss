@@ -1,0 +1,11 @@
+@use 'utilities/utilities' as util;
+@use 'base/base';
+@use 'component/c-otro/otro';
+
+.contenido {
+    color: util.$color-texto;
+}
+.otro-card{   
+    @include util.size(100,200);
+}
+

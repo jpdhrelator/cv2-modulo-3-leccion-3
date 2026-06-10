@@ -1,0 +1,6 @@
+$color-texto: rgb(46, 46, 46);
+
+@mixin size ($width, $height:$width){
+    width: $width;
+    height: $height;
+}

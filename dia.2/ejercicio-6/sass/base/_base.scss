@@ -1,0 +1,8 @@
+@use '../utilities/variables';
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: variables.$texto;
+    background: variables.$fondo;
+}
